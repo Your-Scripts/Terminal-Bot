@@ -1,4 +1,5 @@
 {
     "discord_token": "YourToken",
-    "prefix": "_"
+    "prefix": "_",
+    "dev": "Put your discord id"
 }

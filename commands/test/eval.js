@@ -1,9 +1,10 @@
 const Discord = require('discord.js');
+const { dev } = require('../../config.json');
 
 exports.run = async (client, message, args) => {
     let autor = message.author.id;
     if (
-        autor.includes("327332773108908032")
+        autor.includes(dev)
     ) {
         try {
 
